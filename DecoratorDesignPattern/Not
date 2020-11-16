@@ -1,0 +1,19 @@
+Programýn amacý istedigim kahvenin fiyatini bana vermesidir.
+
+Burda yapmaya calistigimiz sey program icerisinde bir abstract icecek olusturuyoruz.
+Ve diger icecekleri bundan türetiyoruz.
+
+En önemli olayý unutmayarak bu iþlemi yapýyoruz.Program degisime kapalý gelisime acýk olmalýdýr.(Open-closed Principle)
+
+
+Onun icin sonradan gelen ürünleri flavoreDecorator olarak olusturdum ve onu extends ettim.
+
+Decarator desing pattern:
+Decorator tasarým deseni, structural tasarým desenlerinden biridir. Bir nesneye dinamik 
+olarak yeni özellikler eklemek için kullanýlýr. Kalýtým kullanmadan da bir nesnenin görevlerini artýrabileceðimizi gösterir.
+
+Not: Bir sýnýfýn nesnesine runtime zamanýnda eklenen özellikler, bu sýnýftan türetilmiþ diðer nesneleri etkilemez.
+Zaten projede de sonradan eklenen sýnýflarin flavoreDeceratoru extends ettigini görebilirsiniz sonradan ekledim.Ve ana 
+sýnýf etkilememektedir.Bunlarý kullanarak Decarator dessing pattern ile projemizi gerceklestirmis olduk.
+
+
